@@ -1,0 +1,11 @@
+{
+  "_comment": "Fill in these values, then replace {{PLACEHOLDER}} in package.json, app.yml, and assets/directory/overview.md",
+  "APP_ID": "my_app_id",
+  "APP_DISPLAY_NAME": "My App Display Name",
+  "APP_DESCRIPTION": "A brief description of what this app does",
+  "APP_SUMMARY": "Short summary for the app directory",
+  "TOOL_DESCRIPTION": "Description of the tool function",
+  "GITHUB_USERNAME": "your-github-username",
+  "REPO_NAME": "your-repo-name",
+  "CONTACT_EMAIL": "developer@example.com"
+}
