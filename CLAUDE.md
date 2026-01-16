@@ -30,7 +30,21 @@ yarn build
 yarn validate
 ```
 
-### Step 5: Deploy
+### Step 5: Local Testing (Beta)
+Use `ocp dev` for local testing before deploying:
+```bash
+ocp dev
+```
+Open http://localhost:3000 to test:
+- **Settings forms** - Preview UI exactly as it appears in the App Directory
+- **Functions** - Send custom payloads with any HTTP method
+- **Jobs** - Execute jobs manually and inspect execution state
+- **Lifecycle hooks** - Test install and uninstall flows
+- **Real-time logs** - Code changes rebuild automatically
+
+Documentation: https://docs.developers.optimizely.com/optimizely-connect-platform/docs/local-testing
+
+### Step 6: Deploy
 ```bash
 ocp app register  # First time only
 ocp app prepare
